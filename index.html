@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+	<div class="btn-container">
+		<button id="Nouns">
+			<h1>1</h1>Noun
+		</button>
+		<button id="Verbs">
+			<h1>2</h1>Verb
+		</button>
+		<button id="Adjectives">
+			<h1>3</h1>Adjective
+		</button>
+		<button id="Nouns_2">
+			<h1>4</h1>2nd Noun
+		</button>
+		<button id="Places">
+			<h1>5</h1>Place
+		</button>
+		<button id="Speak">
+			<h3>Surprises</h3>
+		</button>
+	</div>
+	<div style="text-align: center;">
+		<h1 style="margin-top: 50px;">Story Generator</h1>
+		<div id="story-output"></div>
+		<button onclick="generateRandomStory()">Generate Story</button>
+		<button onclick="resetGenerator()">Reset</button>
+		<button onclick="speakStory()">Speak</button>
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>
